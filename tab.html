@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Personnel - KIKWAYA KASINDI Danny</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styles de la barre de navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section d'en-tête */
+        header {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background-color: #0073e6;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+        }
+
+        /* Sections génériques */
+        section {
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .about {
+            background-color: #f4f4f4;
+        }
+
+        .projects {
+            background-color: white;
+        }
+
+        .projects p, .about p {
+            max-width: 800px;
+            margin: 0 auto;
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        /* Galerie de projets */
+        .project-gallery {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .project-gallery img {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .project-gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #0073e6;
+            color: white;
+        }
+
+        .contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact li {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- En-tête -->
+    <header>
+        <div>
+            <h1>KIKWAYA KASINDI Danny</h1>
+            <p>Ingénieur en Génie Électrique et Informatique</p>
+            <button class="btn">Voir mes projets</button>
+        </div>
+    </header>
+
+    <!-- Section À propos -->
+    <section id="about" class="about">
+        <h2>À propos de moi</h2>
+        <p>Je suis un ingénieur en génie électrique et informatique avec une passion pour le développement de solutions durables pour l'Afrique. Mon objectif est d'utiliser mes compétences pour créer un impact social et technologique positif.</p>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="projects">
+        <h2>Projets récents</h2>
+        <p>Voici quelques-uns des projets sur lesquels j'ai travaillé récemment, couvrant les domaines des énergies renouvelables et des systèmes intelligents.</p>
+        <div class="project-gallery">
+            <img src="projet1.jpg" alt="Projet 1">
+            <img src="projet2.jpg" alt="Projet 2">
+            <img src="projet3.jpg" alt="Projet 3">
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <h2>Contactez-moi</h2>
+        <ul>
+            <li><strong>Email :</strong> <a href="mailto:tonemail@example.com" style="color:white;">tonemail@example.com</a></li>
+            <li><strong>Téléphone :</strong> +123 456 7890</li>
+            <li><strong>LinkedIn :</strong> <a href="https://linkedin.com/in/tonnom" target="_blank" style="color:white;">linkedin.com/in/tonnom</a></li>
+            <li><strong>GitHub :</strong> <a href="https://github.com/tonnom" target="_blank" style="color:white;">github.com/tonnom</a></li>
+        </ul>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 - KIKWAYA KASINDI Danny</p>
+    </footer>
+
+</body>
+</html>
